@@ -1,5 +1,7 @@
 #pragma once
 
+#include "Application.h"
+
 #ifdef HT_PLATFORM_WINDOWS
 
 extern Hathor::Application* Hathor::CreateApplication();
